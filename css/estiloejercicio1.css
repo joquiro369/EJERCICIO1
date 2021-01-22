@@ -1,0 +1,80 @@
+* {
+    margin: 0px;
+    padding: 0px;    
+}
+
+.container {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+    background-color: black;
+    color: white;
+    height: 80px;
+    border: 5px red solid;
+    border-radius: 10px;
+}
+
+.btn-div {
+    text-align: center;
+    margin-bottom: 20%;
+    margin: 0 auto;
+}
+
+.btn-div button {
+    background-color: black;
+    border: 5px white solid;
+    border-radius: 10px;
+    height: 30px;
+    font-weight: bold;
+    color: red;
+    margin-top: 2%;
+}
+
+.circulo {
+    margin-left: 50%;
+    margin-top:50px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50% ;
+    border: 5px pink solid;
+    background: #050505;
+    -webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+}
+
+.cuadrado {
+    width: 100px; 
+    height: 100px; 
+    background: #428bca;
+    margin-left: 50%;
+    margin-top:50px;
+    -webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+}
+
+.cuadrado-tricolor {
+    width: 0; 
+    height: 0; 
+    border-left: 100px solid #0f84eb;
+    border-top: 50px solid #f0ad4e;
+    border-bottom: 50px solid #d9534f; 
+    margin-left: 50%;
+    margin-top:50px;
+    -webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+}
+
+.pac-man { 
+    width:0; 
+    height:0; 
+    border-right: 50px solid transparent; 
+    border-top: 50px solid #f0ad4e; 
+    border-left: 50px solid #428bca; 
+    border-bottom: 50px solid #d9534f;
+    border-radius: 100%; 
+    margin-left: 50%;
+    margin-top:50px;
+    }
