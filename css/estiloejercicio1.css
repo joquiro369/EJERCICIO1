@@ -48,14 +48,37 @@ h1 {
     text-align: center;
     border-radius: 9px;
 }
-.circulo {
-    margin-left: 50%;
-    margin-top:50px;
-    width: 100px;
-    height: 100px;
+
+.cuadrado-tricolor {
+    width: 0; 
+    height: 0; 
+    margin-left: 35%;
+    margin-top: 45px;
+    border-left: 100px solid #0f84eb;
+    border-top: 50px solid #f0ad4e;
+    border-bottom: 50px solid #d9534f;  
+}
+
+.obalo1 {
+    width: 80px;
+    height: 120px;
+    margin-left: 35%;
+    margin-top:30px;
+    margin-bottom: 20px;
     border-radius: 50% ;
-    border: 5px pink solid;
-    background: #050505;
+    border: 5px red solid;
+    background: white;
+}
+
+.obalo2 {
+    width: 120px;
+    height: 80px;
+    margin-left: 30%;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    border-radius: 50% ;
+    border: 5px red solid;
+    background: white;
 }
 
 .cuadrado {
@@ -66,34 +89,28 @@ h1 {
     margin-top:50px;   
 }
 
-.cuadrado-tricolor {
-    width: 0; 
-    height: 0; 
-    border-left: 100px solid #0f84eb;
-    border-top: 50px solid #f0ad4e;
-    border-bottom: 50px solid #d9534f; 
-    margin-left: 50%;
-    margin-top:50px;  
-}
-
 .pac-man { 
     width:0; 
     height:0; 
+    margin-left: 35%;
+    margin-top: 45px;
     border-right: 50px solid transparent; 
     border-top: 50px solid #f0ad4e; 
     border-left: 50px solid #428bca; 
     border-bottom: 50px solid #d9534f;
     border-radius: 100%; 
-    margin-left: 50%;
-    margin-top:50px;
     }
 
 footer {
+    margin-left: 5px;
+    margin-right: 5px;
     text-align: center;
     border: 5px black solid;
+    border-radius: 9px;
     background-color: red;
     height: 40px;
-    margin-top: 40px;
+    margin-top: 10px;
+    margin-bottom: 8px;
 }
 
 footer p {
