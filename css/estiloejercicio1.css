@@ -54,9 +54,20 @@ h1 {
     height: 0; 
     margin-left: 35%;
     margin-top: 45px;
-    border-left: 100px solid #0f84eb;
-    border-top: 50px solid #f0ad4e;
-    border-bottom: 50px solid #d9534f;  
+    border-left: 100px yellow solid;
+    border-top: 50px blue solid;
+    border-bottom: 50px  red solid;  
+}
+
+.triangulo {
+    width: 0px; 
+    height: 0px;
+    margin-left: 35%;
+    margin-top: 40px;
+    border-left: 50px transparent solid; 
+    border-right: 50px transparent solid;
+    border-bottom: 100px red solid;
+    border-top: 0px black solid; 
 }
 
 .obalo1 {
@@ -81,12 +92,25 @@ h1 {
     background: white;
 }
 
-.cuadrado {
-    width: 100px; 
-    height: 100px; 
-    background: #428bca;
-    margin-left: 50%;
-    margin-top:50px;   
+.rombo {
+    width: 0px; 
+    height: 0px; 
+    margin-left: 35%;
+    margin-top: 35px;
+    border-left: 50px transparent solid;
+    border-right: 50px transparent solid;
+    border-top: 0px;
+    border-bottom: 50px red solid;       
+}
+.rombo2 {
+    width: 0px; 
+    height: 0px; 
+    margin-left: 35%;
+    margin-top: 0px;
+    border-left: 50px transparent solid;
+    border-right: 50px transparent solid;
+    border-top: 50px red solid;
+    border-bottom: 0px;       
 }
 
 .pac-man { 
@@ -94,10 +118,10 @@ h1 {
     height:0; 
     margin-left: 35%;
     margin-top: 45px;
-    border-right: 50px solid transparent; 
-    border-top: 50px solid #f0ad4e; 
-    border-left: 50px solid #428bca; 
-    border-bottom: 50px solid #d9534f;
+    border-right: 50px transparent solid; 
+    border-top: 50px yellow solid; 
+    border-left: 50px blue solid; 
+    border-bottom: 50px red solid;
     border-radius: 100%; 
     }
 
