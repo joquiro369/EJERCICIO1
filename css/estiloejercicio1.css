@@ -20,20 +20,27 @@
     margin-top: 30px;
 }
 
+h1 {
+    text-align: center;
+}
+
 .secciongeneral {
+    margin-bottom: 0px;
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 5px;
+    display: justify;   
+    justify-content: stretch;
 }
 
 .seccionarticulos {
     display: flex;
-    flex-wrap: wrap;    
+    flex-wrap: wrap;        
 }
 
 .seccionfiguras {
     width: 25%;
-    margin: 15px;
+    margin: 20px;
     margin-left: 5%;
     border: 2px red solid;
     border-right: 3px red solid;
@@ -80,3 +87,15 @@
     margin-left: 50%;
     margin-top:50px;
     }
+
+footer {
+    text-align: center;
+    border: 5px black solid;
+    background-color: red;
+    height: 40px;
+    margin-top: 40px;
+}
+
+footer p {
+    padding-top: 9px;
+}
